@@ -54,7 +54,7 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
 
-You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://huggingface.co/datasets/krarit/retrivcod)
+You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://huggingface.co/datasets/kagnlp/retrivcod)
 
 If you would like to cite the paper, here is a bibtex file:
 ```
