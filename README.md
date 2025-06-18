@@ -1,6 +1,6 @@
 # Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team
 
-### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper]() 
+### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper](https://arxiv.org/abs/2506.14234) 
 
 This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team". More tasks and settings will be released soon. You may see some additional Xolver logs [here](https://drive.google.com/drive/folders/1O-KYcgQcEniIGfxbUcQjyZLjAzUJkr0s?usp=sharing).
 
@@ -23,33 +23,38 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 * ./lcb/ contains code for running LiveCodeBench results
 
 To prepare a new conda or python virtual environment, run:
-	`pip install -r requirements.txt`
+	
+ 	pip install -r requirements.txt
 
 **GSM:**
 
 To generate and evaluated answer for GSM problems through Xolver, run:
-	`python gsm/gsm.py`
+	
+ 	cd ./gsm python gsm.py
 
 You can download the GSM dataset [here](https://huggingface.co/datasets/openai/gsm8k)
 
  **AIME:**
 
 To generate and evaluated answer for AIME problems through Xolver, run:
-	`python aime/aime.py`
+	
+ 	cd ./aime python aime.py
 
 You can download the AIME datasets [here](https://huggingface.co/datasets/HuggingFaceH4/aime_2024) and [here](https://huggingface.co/datasets/yentinglin/aime_2025) 
 
 **MATH:**
 
 To generate and evaluated answer for MATH problems through Xolver, run:
-	`python math/math.py`
+	
+ 	cd ./math python math.py
 
  You can download the MATH dataset [here](https://huggingface.co/datasets/di-zhang-fdu/MATH500)
 
  **LiveCodeBench:**
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
-	`python lcb/lcb.py`
+	
+ 	cd ./lcb python lcb.py
 
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
